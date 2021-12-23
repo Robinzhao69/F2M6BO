@@ -7,4 +7,5 @@ Wat is ons idee:<br>
 -Een hologram kunnen weergeven in een diamant vorm<br>
 -Met actuatoren de projectie kunnen veranderen
 
-link naar trello: https://trello.com/b/R491YBPD/kunstspeeltuin
+
+*<a href="https://trello.com/b/R491YBPD/kunstspeeltuin">Trello</a>

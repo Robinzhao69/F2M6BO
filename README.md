@@ -8,4 +8,4 @@ Wat is ons idee:<br>
 -Met actuatoren de projectie kunnen veranderen
 
 
-*<a href="https://trello.com/b/R491YBPD/kunstspeeltuin">Trello</a>
+* <a href="https://trello.com/b/R491YBPD/kunstspeeltuin">Trello</a>

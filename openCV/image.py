@@ -6,7 +6,7 @@ import os
 
 def een():
     print("typ a of w\n")
-    img_path = 'images/product1.png'
+    img_path = 'D:/Ma/Bewijzenmap/leerjaar 2/periode 2/F2M6BO/openCV/images/product1.png'
     img = cv2.imread(img_path, -1)
     img = cv2.resize(img, (420, 69))
     
@@ -26,7 +26,7 @@ def een():
 
 def twee():
     os.system("cls")
-    img = cv2.imread('images/product1.png', -1)
+    img = cv2.imread('D:/Ma/Bewijzenmap/leerjaar 2/periode 2/F2M6BO/openCV/images/product1.png', -1)
     img = cv2.resize(img, (69, 420))
 
     cv2.imshow('Image', img)
@@ -35,7 +35,7 @@ def twee():
 
 def drie():
     os.system("cls")
-    img = cv2.imread('images/max.jpg', -1)
+    img = cv2.imread('D:/Ma/Bewijzenmap/leerjaar 2/periode 2/F2M6BO/openCV/images/product1.png', -1)
     img = cv2.resize(img, (420, 420))
 
     (h, w) = img.shape[:2]

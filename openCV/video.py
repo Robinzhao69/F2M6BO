@@ -1,9 +1,10 @@
 import cv2
 import time
-import sys
+
+
 
 def een():
-    input_video_path = './video/RocketLeague.mp4'
+    input_video_path = 'D:/Ma/Bewijzenmap/leerjaar 2/periode 2/F2M6BO/openCV/video/ROCKET.mp4'
     cap = cv2.VideoCapture(input_video_path)
 
     frame_counter = 0
@@ -15,10 +16,14 @@ def een():
         if frame_counter == cap.get(cv2.CAP_PROP_FRAME_COUNT):
             frame_counter = 0 #Or whatever as long as it is the same as next line
             cap.set(cv2.CAP_PROP_POS_FRAMES, 0)
+          
         # Our operations on the frame come here
-        gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+        gray = cv2.cvtColor(frame, cv2.COLOR_BGRA2RGB)
+        cv2.namedWindow('frame', cv2.WINDOW_NORMAL)
+        cv2.setWindowProperty('frame', cv2.WND_PROP_FULLSCREEN, 1)
+
         # Display the resulting frame
-        cv2.imshow('video',frame)
+        cv2.imshow('frame',frame) 
         key_pressed = cv2.waitKey(8) & 0xFF
         if key_pressed == ord('q'):
             cap.release()
@@ -32,7 +37,7 @@ def een():
             break
         
 def twee():
-    input_video_path = './video/test1.mp4'
+    input_video_path = 'D:/Ma/Bewijzenmap/leerjaar 2/periode 2/F2M6BO/openCV/video/onetap.mp4'
     cap = cv2.VideoCapture(input_video_path)
 
     frame_counter = 0
@@ -44,10 +49,17 @@ def twee():
         if frame_counter == cap.get(cv2.CAP_PROP_FRAME_COUNT):
             frame_counter = 0 #Or whatever as long as it is the same as next line
             cap.set(cv2.CAP_PROP_POS_FRAMES, 0)
-        # Our operations on the frame come here
+            
+        # hier geef ik de frame een kleur
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+
+        #namedWindow zoekt de resolutie van je monitor #
+        #setWindowProperty zorgt er voor dat de video's op de zelfde resolutie komt te staan als je scherm
+
+        cv2.namedWindow('frame', cv2.WINDOW_NORMAL)
+        cv2.setWindowProperty('frame', cv2.WND_PROP_FULLSCREEN, 1)
         # Display the resulting frame
-        cv2.imshow('video',frame)
+        cv2.imshow('frame',frame)
         key_pressed = cv2.waitKey(8) & 0xFF
         if key_pressed == ord('q'):
             cap.release()
@@ -56,7 +68,7 @@ def twee():
         
 
 def drie():
-    input_video_path = './video/test1.mp4'
+    input_video_path = 'D:/Ma/Bewijzenmap/leerjaar 2/periode 2/F2M6BO/openCV/video/yes.mp4'
     cap = cv2.VideoCapture(input_video_path)
 
     frame_counter = 0
@@ -70,8 +82,10 @@ def drie():
             cap.set(cv2.CAP_PROP_POS_FRAMES, 0)
         # Our operations on the frame come here
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+        cv2.namedWindow('frame', cv2.WINDOW_NORMAL)
+        cv2.setWindowProperty('frame', cv2.WND_PROP_FULLSCREEN, 1)
         # Display the resulting frame
-        cv2.imshow('video',gray)
+        cv2.imshow('frame',gray)
         key_pressed = cv2.waitKey(8) & 0xFF
         if key_pressed == ord('q'):
             cap.release()

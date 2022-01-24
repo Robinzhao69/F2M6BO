@@ -3,8 +3,10 @@ import time
 
 
 
+
+
 def een():
-    input_video_path = 'D:/Ma/Bewijzenmap/leerjaar 2/periode 2/F2M6BO/openCV/video/ROCKET.mp4'
+    input_video_path = 'd:/Ma/Bewijzenmap/leerjaar 2/periode 2/F2M6BO/openCV/video/ROCKET.mp4'
     cap = cv2.VideoCapture(input_video_path)
 
     frame_counter = 0
@@ -27,6 +29,7 @@ def een():
 
         # laat het resultaat zien van de frames
         cv2.imshow('frame',frame) 
+        
         key_pressed = cv2.waitKey(8) & 0xFF
         if key_pressed == ord('q'):
             cap.release()
@@ -40,7 +43,7 @@ def een():
             break
                 
 def twee():
-    input_video_path = 'D:/Ma/Bewijzenmap/leerjaar 2/periode 2/F2M6BO/openCV/video/onetap.mp4'
+    input_video_path = 'd:/Ma/Bewijzenmap/leerjaar 2/periode 2/F2M6BO/openCV/video/onetap.mp4'
     cap = cv2.VideoCapture(input_video_path)
 
     frame_counter = 0

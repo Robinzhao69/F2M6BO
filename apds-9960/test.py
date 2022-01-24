@@ -66,12 +66,15 @@ def processGesture(gesture):
         count += 1
         print("Onder")
         print(count)
+        een()
         
     elif gesture == "UP":
         print("boven")
+        een()
     
     elif gesture == "LEFT":
         print("links")
+        een()
     elif gesture == "RIGHT":
         print("rechts")
 

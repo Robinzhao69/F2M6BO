@@ -40,3 +40,4 @@ SD2:
 * <a href="https://docs.google.com/document/d/1jdOSY501TFC_xKfTrklLGI1Mb3KlsrbsY9dTBqY9nLU/edit?usp=sharing">Projectplan</a>
 * <a href="https://drive.google.com/file/d/1bcvI3z0uc27MO8nCCzleY4_bi9znAKTC/view?usp=sharing">Logboek</a>
 * <a href="https://drive.google.com/file/d/11OyRQCPI15Yr5wzmaQzyDgKlPTjHeA_I/view?usp=sharing">Testplan</a>
+* <a href="https://docs.google.com/document/d/1cS_3TuEAZBjPr4Ny9Ojf03lDwFN8LejRUYkO7ugG8hU/edit?usp=sharing">Bronnenlijst</a>

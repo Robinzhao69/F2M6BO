@@ -35,3 +35,7 @@ SD2:
 * <a href="https://trello.com/b/R491YBPD/kunstspeeltuin">Trello</a>
 * <a href="https://github.com/Robinzhao69/F2M6BO">Github</a>
 
+## Documentatie
+* <a href="https://docs.broadcom.com/doc/AV02-4191EN">apds-9960 gesture sensor documentatie</a>
+* <a href="https://docs.google.com/document/d/1jdOSY501TFC_xKfTrklLGI1Mb3KlsrbsY9dTBqY9nLU/edit?usp=sharing">Projectplan</a>
+

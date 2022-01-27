@@ -5,8 +5,7 @@ Radicale Kunstspeeltuin is een project waarbij mensen van verschillende opleidin
 en kan je jezelf of technische vlakken uitbreiden. Dit kan je later helpen met je carrière.
 
 ## Wat is ons idee?
-Wij hebben de kunstenaar Tim Walker gekozen voor ons project. De reden hiervoor is, omdat hij een modefotograaf is, dat interessante voorwerpen maakt voor zijn foto's. Zo zitten mensen in hele grote objecten, zoals een grote slaapzak of een aquarium. Wij willen dus een object maken, waar de omgeving met de natuur te maken heeft, waarbij als focus in het midden een zwevende bol zit. In de zwevende bol zit een hol waar je in kunt kijken. Daar in zit een prisma vormig object dat een hologram projecteert. vlak voor de bol zit ook een sensor. Met die sensor kan je zwaaien om de projectie te veranderen.<br> 
-<br>Dit is het voor nu de rest is W.I.P(Work-In-Progress).
+Wij hebben de kunstenaar Tim Walker gekozen voor ons project. De reden hiervoor is, omdat hij een modefotograaf is, dat interessante voorwerpen maakt voor zijn foto's. Zo zitten mensen in hele grote objecten, zoals een grote slaapzak of een aquarium. Wij willen dus een object maken, waar de omgeving met de natuur te maken heeft, waarbij als focus in het midden een zwevende bol zit. In de zwevende bol zit een hol waar je in kunt kijken. Daar in zit een prisma vormig object dat een hologram projecteert. vlak voor de bol zit ook een sensor. Met die sensor kan je zwaaien om de projectie te veranderen.
 
 
 ## Apparatuur/Hulpmiddelen die helpen bij het realiseren bij het project

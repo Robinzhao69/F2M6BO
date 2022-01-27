@@ -35,7 +35,7 @@ MV4:
 SD2:
 * Robin Zhao
 
-## Links
+## Planning
 * <a href="https://trello.com/b/R491YBPD/kunstspeeltuin">Trello</a>
 * <a href="https://github.com/Robinzhao69/F2M6BO">Github</a>
 
